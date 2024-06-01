@@ -1,0 +1,4 @@
+Q3
+a. In Shamir's Secret Sharing scheme, the secret can be revealed under the condition that at least k participants (where k is the threshold in a polynomial of degree k−1) 
+come together to pool their shares. The scheme uses a polynomial f(x) of degree k−1, and the secret S is the constant term f(0). When k shares are known, they provide k equations in 
+k unknown coefficients of the polynomial, making it solvable using techniques such as Lagrange interpolation. This allows for the reconstruction of the polynomial and hence the discovery of the secret S.

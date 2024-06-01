@@ -1,0 +1,25 @@
+For the question 2:
+a. 
+J(700, 1617)
+Since we know the 700 can be divide into 2^2 * 5^2 * 7, which we have J(2^2, 1617) * J(5^2, 1617) * J(7, 1617)
+then J(2^2, 1617) and J(5^2, 1617) which n is odd number and a is perfect square. So, the result is 1. For J(7, 1617) = J(7, 1617 mod 7) = J(7, 0) = 0
+So, the result is 0 for the J(700, 1617)
+
+b.
+J(100, 173)
+we have 100 = 2^2 * 5^2, so J(100, 173) = J(2^2, 173) * J(5^2, 173) and n is odd number and a is perfect square number which equal to 1. 
+So, the result is 1.
+
+c.
+J(1000,173)
+we have 1000 = 2^3 * 5^3, so J(1000, 173) = J(2^3, 173) * J(5^3, 173) and n is odd number and a is perfect cube, but since we know the 
+J(100, 173) is 1.  we need to find J(2,173)and J(5,173). J(2,173)  is equal to (-1)^((173^2-1)/8) = -1 and
+ J(5,173) we can use (-1)^(((5-1)(173-1))/4)*J(173，5) and 173 mod 5 =3 which equal to -1 
+ J(1000,173) which equal to 1.
+
+d.
+(1000,171)
+Since we know 1000 = 2^3 * 5^3, so J(1000, 171) = J(2^3, 171) * J(5^3, 171)
+J(2^3, 171) =J(2^2,171)*(2,171), then J(2,171)= (-1)^((171^2-1)/8) = -1 and J(2^2,171) n is odd number and a is perfect square number which equal to 1
+J(5^3, 171) = J(5^2,171)*(5,171), then J(5,171)=  (-1) ** (((5-1) * (171-1)) // 4) = 1 and J(5,171) n is odd number and a is perfect square number which equal to 1
+So, J(2^3, 171)= -1 and J(5^3,171) = 1, so J(1000,171) = -1

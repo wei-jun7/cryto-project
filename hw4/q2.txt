@@ -1,0 +1,6 @@
+Q2
+Frist step: the peggy chose a random number r in range [0... p-2] and calculated the y =  α ^r mod p and send the y to Victor as the promise
+Second step: Victor chose a random number e in range [0...1] and send the e to Peggy
+Third step: Peggy send the value of z = r + e * a mod (p-1) to Victor
+Fourth step: Victor check if α ^z mod p = y * β ^e mod p is true or not. if true accept the proof otherwise reject it.
+Fifth step: repeat the step 1 to 4 multiple times to increase the confidence level of the proof.
